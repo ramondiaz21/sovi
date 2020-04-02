@@ -1,0 +1,25 @@
+puntos para software inmobiliario
+
+software para ventas inmobiliarias
+
+-administrador personal
+	*login
+	*buscador
+	(municipio, tipo, rango de costo, particular o fraccionamiento, zona)
+	*listado de propiedades / resultados
+	*detalles
+	//Para lunes proxima entrega 6/04/2020
+	//master-pruebas-desarrollo-{diseño
+														--{programacion 
+	*modulo de operaciones
+	(generar pdf, mandar correo electronico, agendar cita)
+
+
+-catalogo 
+	*
+
+-seguimiento a ventas
+-app de levantamientos
+
+-sector de construcciones
+-analisis inmobiliario
