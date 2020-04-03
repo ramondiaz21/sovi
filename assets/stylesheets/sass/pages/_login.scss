@@ -1,0 +1,134 @@
+.login {
+  background-image: url("../../images/login.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+
+  @media screen and (max-width: $small) {
+    padding: 20px;
+  }
+
+  .shadow-wrapper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(51, 102, 153, 0.6);
+  }
+
+  .login-wrapper {
+    @include centerer;
+    background-color: #ffffffb8;
+    border-radius: 10px;
+    padding: 20px;
+    border: none !important;
+    text-align: center;
+    width: 500px;
+
+    /*@media only screen and (max-width: $large) and (min-width: $smallAlt) {
+      background-image: url("../../images/bg-tablet.jpg");
+      background-attachment: scroll;
+    }*/
+
+    @media screen and (max-width: $small) {
+     width: 100%;
+     position: inherit;
+    }
+  }
+
+  img {
+    height: 60px;
+    margin-bottom: 20px;
+  }
+
+  .form-control {
+
+    border: none !important;
+    background: transparent !important;
+
+    &:focus {
+      outline: none !important;
+      outline-width: 0 !important;
+      box-shadow: none;
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none;
+
+      .inner-addon {
+        border-bottom: 2px solid #2F4858 !important;
+      }
+
+    }
+
+  }
+
+  .fas {
+    color: #2F4858;
+  }
+
+  .btn-primary {
+    background-color: #2F4858 !important;
+    color: white;
+    border: none !important;
+
+    &:focus {
+      outline: none !important;
+      outline-width: 0 !important;
+      box-shadow: none;
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none;
+    }
+
+    @media screen and (max-width: $small) {
+     width: 100%;
+    }
+  }
+
+  .btn-primary {
+    &:hover {
+      background-color: #336699 !important;
+    }
+  }
+
+  /* enable absolute positioning */
+  .inner-addon {
+    position: relative;
+    width: 80%;
+    margin: 20px auto;
+    border-bottom: 1.5px solid #2F4858;
+
+    @media screen and (max-width: $small) {
+     width: 100%;
+    }
+  }
+
+  /* style icon */
+  .inner-addon .fas {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+  }
+
+  /* align icon */
+  .left-addon .fas {
+    left: 0px;
+  }
+
+  .right-addon .fas {
+    right: 0px;
+  }
+
+  /* add padding  */
+  .left-addon input {
+    padding-left: 30px;
+  }
+
+  .right-addon input {
+    padding-right: 30px;
+  }
+}
