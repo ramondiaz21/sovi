@@ -1,0 +1,175 @@
+.buscador {
+  .hero {
+    background-image: url("../../images/login.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+
+    @media only screen and (max-width: $large) and (min-width: $smallAlt) {
+      min-height: 100vh;
+    }
+
+    @media screen and (max-width: $small) {
+      min-height: 100vh;
+    }
+
+    .shadow-wrapper {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      background: rgba(51, 102, 153, 0.6);
+    }
+
+    .buscador-wrapper {
+      left: 15%;
+      background-color: white;
+      border-radius: 10px;
+      padding: 35px;
+      position: absolute;
+      margin: auto;
+      width: 70%;
+      top: 20px;
+      height: 100vh;
+
+      @media only screen and (max-width: $large) and (min-width: $smallAlt) {
+        width: 80%;
+        left: 10%;
+      }
+
+      @media screen and (max-width: $small) {
+        width: 90%;
+        left: 5%;
+      }
+    }
+
+    .nav-item {
+      background-color: #2F4858 !important;
+      color: white !important;
+
+    }
+
+    .nav-tabs {
+      margin-bottom: 20px;
+
+      .active {
+        color: white !important;
+        background-color: #336699 !important;
+      }
+    }
+
+    #nav-tab2 {
+      margin-bottom: 20px;
+
+      .nav-item {
+        background-color: #336699 !important;
+        color: white !important;
+      }
+
+      .active {
+        color: white !important;
+        background-color: #86BBD8 !important;
+      }
+    }
+
+
+    #nav-home {
+      text-align: center;
+    }
+
+
+  }
+
+  //Aqui termina hero
+
+
+  .information {
+    background-color: #eceef2;
+    position: relative;
+    padding: 50px 0;
+
+
+    .result-wrapper {
+      background-color: white;
+      margin-bottom: 50px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, .05);
+
+      img {
+        width: 100%;
+        position: relative;
+        height: 100%;
+      }
+
+      .price-wrapper {
+        position: absolute;
+        right: 15px;
+        bottom: 0;
+        background-color: #336699e6;
+        color: white;
+        padding: 8px;
+      }
+
+      .right-side {
+        padding: 20px 30px;
+
+        .separator {
+          margin: 10px 0;
+        }
+
+        h3 {
+          color: #2F4858;
+        }
+
+        h4 {
+          color: #9ee493d6;
+        }
+      }
+
+      .icons-wrapper {
+        background-color: #336699;
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+
+        p {
+          font-size: 12px;
+          font-weight: 100;
+        }
+      }
+    }
+
+    .btn-primary {
+      background-color: #2F4858 !important;
+      color: white;
+      border: none !important;
+
+      &:focus {
+        outline: none !important;
+        outline-width: 0 !important;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+      }
+
+      @media screen and (max-width: $small) {
+        width: 100%;
+      }
+    }
+
+    .btn-primary {
+      &:hover {
+        background-color: #336699 !important;
+      }
+    }
+  }
+
+  //aqui termina la seccion de resultado de busqueda
+
+}
+
+//Aqui termina .buscador

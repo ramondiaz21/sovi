@@ -1,0 +1,14 @@
+body {
+  overflow-x: hidden;
+}
+
+button {
+  cursor: pointer;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}

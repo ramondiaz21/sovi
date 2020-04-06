@@ -1,0 +1,31 @@
+@import
+  'abstracts/functions',
+  'abstracts/helpers',
+  'abstracts/mixins',
+  'abstracts/colors',
+  'abstracts/variables';
+
+@import
+  'base/reset',
+  'base/base',
+  'base/typography';
+
+@import
+  'components/buttons',
+  'components/carousel',
+  'components/cover',
+  'components/dropdown';
+
+@import
+  'layout/footer',
+  'layout/forms',
+  'layout/grid',
+  'layout/header',
+  'layout/navigation',
+  'layout/sidebar';
+
+@import
+  'pages/login',
+  'pages/buscador',
+  'pages/detalles',
+  'pages/home';
