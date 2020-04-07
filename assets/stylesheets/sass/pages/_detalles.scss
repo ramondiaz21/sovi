@@ -27,12 +27,19 @@
       color: #9ee493d6;
     }
 
+
+    hr {
+      border-bottom: 1px solid #2F4858;
+      margin: 30px auto;
+      width: 100%;
+    }
+
     .position-fixed {
       text-align: center;
       bottom: 10px;
 
       h3 {
-      	margin: 10px 0;
+        margin: 10px 0;
 
       }
 
@@ -42,5 +49,36 @@
         width: 80%;
       }
     }
+
+    .box-wrapper,
+    .boxes-wrapper {
+      box-shadow: 0 0 5px rgba(0, 0, 0, .05);
+      background-color: white;
+      text-align: center
+    }
+
+    .boxes-wrapper {
+      position: relative;
+      padding: 7px;
+      border: .5px solid #eceef2;
+      color: #2F4858;
+    }
+
+    .detalles-wrapper {
+      margin-top: 30px;
+    }
+
+    h5,
+    p {
+      color: #2F4858;
+      text-align: left;
+    }
+
+    p {
+    	font-size: 12px;
+    }
+
   }
+
+  //aqui termina detalles
 }
