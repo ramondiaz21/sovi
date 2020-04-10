@@ -9,11 +9,11 @@
     position: relative;
 
     @media only screen and (max-width: $large) and (min-width: $smallAlt) {
-      //min-height: 100vh;
+      height: 120%;
     }
 
     @media screen and (max-width: $small) {
-      //min-height: 100vh;
+      height: 120%;
     }
 
     .shadow-wrapper {
@@ -88,6 +88,14 @@
       display: inline-block;
       text-align: center;
       width: 60%;
+
+      @media only screen and (max-width: $large) and (min-width: $smallAlt) {
+        width: 100%;
+      }
+
+      @media screen and (max-width: $small) {
+        width: 100%;
+      }
     }
 
     .btn-categorias {
@@ -98,6 +106,16 @@
       border: none !important;
       display: inline-block;
       //transition: .6s all ease;
+
+      @media only screen and (max-width: $large) and (min-width: $smallAlt) {
+        width: 80%;
+        margin: 5px 0;
+      }
+
+      @media screen and (max-width: $small) {
+        width: 80%;
+        margin: 5px 0;
+      }
 
       &:hover {
         background-color: #86BBD8;
@@ -120,7 +138,9 @@
       background-color: #86BBD8;
     }
 
-    .venta-wrapper, .renta-wrapper, .comercial-wrapper {
+    .venta-wrapper,
+    .renta-wrapper,
+    .comercial-wrapper {
       margin: 50px 0;
       display: none;
 
@@ -151,6 +171,14 @@
           width: 20%;
           padding: 15px;
 
+          @media only screen and (max-width: $large) and (min-width: $smallAlt) {
+            width: 80%;
+          }
+
+          @media screen and (max-width: $small) {
+            width: 80%;
+          }
+
           &:focus {
             outline: none !important;
             outline-width: 0 !important;
@@ -167,12 +195,12 @@
         }
       }
 
-      
+
     }
 
     .show-div {
-        display: block;
-      }
+      display: block;
+    }
 
 
   }
