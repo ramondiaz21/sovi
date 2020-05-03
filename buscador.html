@@ -18,605 +18,774 @@
   <section class="hero">
     <div class="shadow-wrapper">
     </div>
-    <div class="buscador-wrapper">
-      <nav>
-        <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-          <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">HABITACIONAL</a>
-          <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">TERRENOS</a>
-          <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">COMERCIALES</a>
+    <div class="row rowHero">
+      <div class="col-lg-8 col-md-8 col-12">
+        <label>RECORDATORIO FLOTANTE</label>
+      </div>
+      <div class="col-lg-4 col-md-4 col-12">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-12">
+            <button type="" class="btn-primary">
+              <i class="fas fa-cog"></i>
+            </button>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12">
+            <button type="" class="btn-primary">
+              <i class="fas fa-cog"></i>
+            </button>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12">
+            <button type="" class="btn-primary">
+              <i class="fas fa-cog"></i>
+            </button>
+          </div>
         </div>
-      </nav>
-      <div class="tab-content" id="nav-tabContent">
-        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-          <div class="text-center">
-            <div class="buttons-wrapper">
-              <button type="" id="btnVenta" class="btn-categorias active-buttons">VENTA</button>
-              <button type="" id="btnRenta" class="btn-categorias">RENTA</button>
-              <button type="" id="btnTraspaso" class="btn-categorias">TRASPASO</button>
+      </div>
+      <div class="col-lg-6 col-md-6 col-12">
+        <div class="buscador-wrapper">
+          <nav>
+            <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+              <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">HABITACIONAL</a>
+              <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">TERRENOS</a>
+              <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">COMERCIALES</a>
             </div>
-            <div id="div-venta-habitacional" class="venta-wrapper show-div">
+          </nav>
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+              <div class="text-center">
+                <div class="buttons-wrapper">
+                  <button type="" id="btnVenta" class="btn-categorias active-buttons">VENTA</button>
+                  <button type="" id="btnRenta" class="btn-categorias">RENTA</button>
+                  <button type="" id="btnTraspaso" class="btn-categorias">TRASPASO</button>
+                </div>
+                <div id="div-venta-habitacional" class="venta-wrapper show-div">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>MUNICIPIO</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <input type="number" class="form-control" name="" value="" placeholder="PRECIO VENTA INICIAL">
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <input type="number" class="form-control" name="" value="" placeholder="PRECIO VENTA FINAL">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row" style="margin-top: 10px">
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>TIPO</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>CATEGORÍA</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>ZONA</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="button-search-wrapper">
+                    <button type="" class="btn-primary">BUSCAR</button>
+                  </div>
+                </div>
+                <div id="div-renta-habitacional" class="venta-wrapper">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>MUNICIPIO</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <input type="number" class="form-control" name="" value="" placeholder="PRECIO RENTA INICIAL">
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <input type="number" class="form-control" name="" value="" placeholder="PRECIO RENTA FINAL">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row" style="margin-top: 10px">
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>TIPO</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>CATEGORÍA</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>ZONA</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="button-search-wrapper">
+                    <button type="" class="btn-primary">BUSCAR</button>
+                  </div>
+                </div>
+                <div id="div-traspaso-habitacional" class="venta-wrapper">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>MUNICIPIO</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <input type="number" class="form-control" name="" value="" placeholder="PRECIO TRASPASO INICIAL">
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <input type="number" class="form-control" name="" value="" placeholder="PRECIO TRASPASO FINAL">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row" style="margin-top: 10px">
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>TIPO</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>CATEGORÍA</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>ZONA</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="button-search-wrapper">
+                    <button type="" class="btn-primary">BUSCAR</button>
+                  </div>
+                </div>
+              </div>
+              <!--AQUI TERMINA LA PESTAÑA DE HABITACIONAL-->
+            </div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+              <div class="text-center">
+                <div class="buttons-wrapper">
+                  <button type="" id="btnVentaTerrenos" class="btn-categorias active-buttons">VENTA</button>
+                  <button type="" id="btnRentaTerrenos" class="btn-categorias">RENTA</button>
+                </div>
+                <div id="div-venta-terrenos" class="venta-wrapper show-div">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>MUNICIPIO</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <input type="number" class="form-control" name="" value="" placeholder="PRECIO VENTA INICIAL">
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <input type="number" class="form-control" name="" value="" placeholder="PRECIO VENTA FINAL">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row" style="margin-top: 10px">
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>TIPO</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>CATEGORÍA</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>ZONA</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="button-search-wrapper">
+                    <button type="" class="btn-primary">BUSCAR</button>
+                  </div>
+                </div>
+                <div id="div-renta-terrenos" class="venta-wrapper">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>MUNICIPIO</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <input type="number" class="form-control" name="" value="" placeholder="PRECIO RENTA INICIAL">
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <input type="number" class="form-control" name="" value="" placeholder="PRECIO RENTA FINAL">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row" style="margin-top: 10px">
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>TIPO</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>CATEGORÍA</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>ZONA</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="button-search-wrapper">
+                    <button type="" class="btn-primary">BUSCAR</button>
+                  </div>
+                </div>
+              </div>
+              <!--AQUI TERMINA LA PESTAÑA DE TERRENOS-->
+            </div>
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+              <div class="text-center">
+                <div class="buttons-wrapper">
+                  <button type="" id="btnVentaLocales" class="btn-categorias active-buttons">VENTA</button>
+                  <button type="" id="btnRentaLocales" class="btn-categorias">RENTA</button>
+                </div>
+                <div id="div-venta-locales" class="venta-wrapper show-div">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>MUNICIPIO</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <input type="number" class="form-control" name="" value="" placeholder="PRECIO VENTA INICIAL">
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <input type="number" class="form-control" name="" value="" placeholder="PRECIO VENTA FINAL">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row" style="margin-top: 10px">
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>TIPO</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>CATEGORÍA</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>ZONA</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="button-search-wrapper">
+                    <button type="" class="btn-primary">BUSCAR</button>
+                  </div>
+                </div>
+                <div id="div-renta-locales" class="venta-wrapper">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>MUNICIPIO</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <input type="number" class="form-control" name="" value="" placeholder="PRECIO RENTA INICIAL">
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <input type="number" class="form-control" name="" value="" placeholder="PRECIO RENTA FINAL">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row" style="margin-top: 10px">
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>TIPO</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>CATEGORÍA</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>ZONA</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="button-search-wrapper">
+                    <button type="" class="btn-primary">BUSCAR</button>
+                  </div>
+                </div>
+              </div>
+              <!--AQUI TERMINA LA PESTAÑA DE COMERCIOS O LOCALES-->
+            </div>
+          </div>
+        </div>
+        <div class="table-wrapper">
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead class="text-center">
+                <tr>
+                  <th scope="col">ELEGIR</th>
+                  <th scope="col">MUNICIPIO</th>
+                  <th scope="col">PRECIO</th>
+                  <th scope="col">TIPO</th>
+                  <th scope="col">CATEGORÍA</th>
+                  <th scope="col">ZONA</th>
+                </tr>
+              </thead>
+              <tbody class="text-center">
+                <tr>
+                  <td>
+                    <input type="radio" class="" name="" value="" placeholder="">
+                  </td>
+                  <td>COLIMA</td>
+                  <td>$1,000,000</td>
+                  <td>CASA</td>
+                  <td>VENTA</td>
+                  <td>NORESTE</td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="radio" class="" name="" value="" placeholder="">
+                  </td>
+                  <td>COLIMA</td>
+                  <td>$1,000,000</td>
+                  <td>CASA</td>
+                  <td>VENTA</td>
+                  <td>NORESTE</td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="radio" class="" name="" value="" placeholder="">
+                  </td>
+                  <td>COLIMA</td>
+                  <td>$1,000,000</td>
+                  <td>CASA</td>
+                  <td>VENTA</td>
+                  <td>NORESTE</td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="radio" class="" name="" value="" placeholder="">
+                  </td>
+                  <td>COLIMA</td>
+                  <td>$1,000,000</td>
+                  <td>CASA</td>
+                  <td>VENTA</td>
+                  <td>NORESTE</td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="radio" class="" name="" value="" placeholder="">
+                  </td>
+                  <td>COLIMA</td>
+                  <td>$1,000,000</td>
+                  <td>CASA</td>
+                  <td>VENTA</td>
+                  <td>NORESTE</td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="radio" class="" name="" value="" placeholder="">
+                  </td>
+                  <td>COLIMA</td>
+                  <td>$1,000,000</td>
+                  <td>CASA</td>
+                  <td>VENTA</td>
+                  <td>NORESTE</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-12">
+        <div class="information">
+          <div class="container">
+            <div class="result-wrapper">
               <div class="row">
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>MUNICIPIO</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
+                <div class="col-lg-4 col-md-4 col-12 image-wrapper">
+                  <img src="assets/images/house.jpg" width="" height="" class="d-inline-block align-top" alt="">
+                  <div class="price-wrapper">
+                    <h4>$1,000,000</h4>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <input type="number" class="form-control" name="" value="" placeholder="PRECIO VENTA INICIAL">
+                <div class="col-lg-8 col-md-8 col-12 right-side">
+                  <h3 class="separator">Casa Caracol</h3>
+                  <h4 class="separator">Casa en forma de caracol en Colima</h4>
+                  <div class="row separator">
+                    <div class="col-lg-4 col-md-4 col-6">
+                      <div class="row icons-wrapper">
+                        <div class="col-lg-6 col-md-6 col-12">
+                          <i class="fas fa-toilet"></i>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12">
+                          <p>4 Baños</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-6">
+                      <div class="row icons-wrapper">
+                        <div class="col-lg-6 col-md-6 col-12">
+                          <i class="fas fa-tools"></i>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12">
+                          <p>183m</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-6">
+                      <div class="row icons-wrapper">
+                        <div class="col-lg-6 col-md-6 col-12">
+                          <i class="fas fa-tools"></i>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12">
+                          <p>8x16</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-6">
+                      <div class="row icons-wrapper">
+                        <div class="col-lg-6 col-md-6 col-12">
+                          <i class="fas fa-bed"></i>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12">
+                          <p>8 cuartos</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12">
+                      <button class="btn btn-primary separator" type="">Detalles -></button>
+                    </div>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <input type="number" class="form-control" name="" value="" placeholder="PRECIO VENTA FINAL">
-                  </div>
-                </div>
-              </div>
-              <div class="row" style="margin-top: 30px">
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>TIPO</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>CATEGORÍA</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>ZONA</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </div>
-                </div>
-              </div>
-              <div class="button-search-wrapper">
-                <button type="" class="btn-primary">BUSCAR</button>
               </div>
             </div>
-            <div id="div-renta-habitacional" class="venta-wrapper">
+            <div class="result-wrapper">
               <div class="row">
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>MUNICIPIO</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
+                <div class="col-lg-4 col-md-4 col-12 image-wrapper">
+                  <img src="assets/images/house.jpg" width="" height="" class="d-inline-block align-top" alt="">
+                  <div class="price-wrapper">
+                    <h4>$1,000,000</h4>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <input type="number" class="form-control" name="" value="" placeholder="PRECIO RENTA INICIAL">
+                <div class="col-lg-8 col-md-8 col-12 right-side">
+                  <h3 class="separator">Casa Caracol</h3>
+                  <h4 class="separator">Casa en forma de caracol en Colima</h4>
+                  <div class="row separator">
+                    <div class="col-lg-4 col-md-4 col-6">
+                      <div class="row icons-wrapper">
+                        <div class="col-lg-6 col-md-6 col-12">
+                          <i class="fas fa-toilet"></i>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12">
+                          <p>4 Baños</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-6">
+                      <div class="row icons-wrapper">
+                        <div class="col-lg-6 col-md-6 col-12">
+                          <i class="fas fa-tools"></i>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12">
+                          <p>183m</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-6">
+                      <div class="row icons-wrapper">
+                        <div class="col-lg-6 col-md-6 col-12">
+                          <i class="fas fa-tools"></i>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12">
+                          <p>8x16</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-6">
+                      <div class="row icons-wrapper">
+                        <div class="col-lg-6 col-md-6 col-12">
+                          <i class="fas fa-bed"></i>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12">
+                          <p>8 cuartos</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12">
+                      <button class="btn btn-primary separator" type="">Detalles -></button>
+                    </div>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <input type="number" class="form-control" name="" value="" placeholder="PRECIO RENTA FINAL">
-                  </div>
-                </div>
-              </div>
-              <div class="row" style="margin-top: 30px">
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>TIPO</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>CATEGORÍA</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>ZONA</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </div>
-                </div>
-              </div>
-              <div class="button-search-wrapper">
-                <button type="" class="btn-primary">BUSCAR</button>
               </div>
             </div>
-            <div id="div-traspaso-habitacional" class="venta-wrapper">
+            <div class="result-wrapper">
               <div class="row">
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>MUNICIPIO</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
+                <div class="col-lg-4 col-md-4 col-12 image-wrapper">
+                  <img src="assets/images/house.jpg" width="" height="" class="d-inline-block align-top" alt="">
+                  <div class="price-wrapper">
+                    <h4>$1,000,000</h4>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <input type="number" class="form-control" name="" value="" placeholder="PRECIO TRASPASO INICIAL">
+                <div class="col-lg-8 col-md-8 col-12 right-side">
+                  <h3 class="separator">Casa Caracol</h3>
+                  <h4 class="separator">Casa en forma de caracol en Colima</h4>
+                  <div class="row separator">
+                    <div class="col-lg-4 col-md-4 col-6">
+                      <div class="row icons-wrapper">
+                        <div class="col-lg-6 col-md-6 col-12">
+                          <i class="fas fa-toilet"></i>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12">
+                          <p>4 Baños</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-6">
+                      <div class="row icons-wrapper">
+                        <div class="col-lg-6 col-md-6 col-12">
+                          <i class="fas fa-tools"></i>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12">
+                          <p>183m</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-6">
+                      <div class="row icons-wrapper">
+                        <div class="col-lg-6 col-md-6 col-12">
+                          <i class="fas fa-tools"></i>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12">
+                          <p>8x16</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-6">
+                      <div class="row icons-wrapper">
+                        <div class="col-lg-6 col-md-6 col-12">
+                          <i class="fas fa-bed"></i>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12">
+                          <p>8 cuartos</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12">
+                      <button class="btn btn-primary separator" type="">Detalles -></button>
+                    </div>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <input type="number" class="form-control" name="" value="" placeholder="PRECIO TRASPASO FINAL">
-                  </div>
-                </div>
-              </div>
-              <div class="row" style="margin-top: 30px">
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>TIPO</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>CATEGORÍA</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>ZONA</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </div>
-                </div>
-              </div>
-              <div class="button-search-wrapper">
-                <button type="" class="btn-primary">BUSCAR</button>
               </div>
             </div>
           </div>
-          <!--AQUI TERMINA LA PESTAÑA DE HABITACIONAL-->
-        </div>
-        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-          <div class="text-center">
-            <div class="buttons-wrapper">
-              <button type="" id="btnVentaTerrenos" class="btn-categorias active-buttons">VENTA</button>
-              <button type="" id="btnRentaTerrenos" class="btn-categorias">RENTA</button>
-            </div>
-            <div id="div-venta-terrenos" class="venta-wrapper show-div">
-              <div class="row">
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>MUNICIPIO</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <input type="number" class="form-control" name="" value="" placeholder="PRECIO VENTA INICIAL">
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <input type="number" class="form-control" name="" value="" placeholder="PRECIO VENTA FINAL">
-                  </div>
-                </div>
-              </div>
-              <div class="row" style="margin-top: 30px">
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>TIPO</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>CATEGORÍA</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>ZONA</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </div>
-                </div>
-              </div>
-              <div class="button-search-wrapper">
-                <button type="" class="btn-primary">BUSCAR</button>
-              </div>
-            </div>
-            <div id="div-renta-terrenos" class="venta-wrapper">
-              <div class="row">
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>MUNICIPIO</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <input type="number" class="form-control" name="" value="" placeholder="PRECIO RENTA INICIAL">
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <input type="number" class="form-control" name="" value="" placeholder="PRECIO RENTA FINAL">
-                  </div>
-                </div>
-              </div>
-              <div class="row" style="margin-top: 30px">
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>TIPO</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>CATEGORÍA</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>ZONA</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </div>
-                </div>
-              </div>
-              <div class="button-search-wrapper">
-                <button type="" class="btn-primary">BUSCAR</button>
-              </div>
-            </div>
-          </div>
-          <!--AQUI TERMINA LA PESTAÑA DE TERRENOS-->
-        </div>
-        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-          <div class="text-center">
-            <div class="buttons-wrapper">
-              <button type="" id="btnVentaLocales" class="btn-categorias active-buttons">VENTA</button>
-              <button type="" id="btnRentaLocales" class="btn-categorias">RENTA</button>
-            </div>
-            <div id="div-venta-locales" class="venta-wrapper show-div">
-              <div class="row">
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>MUNICIPIO</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <input type="number" class="form-control" name="" value="" placeholder="PRECIO VENTA INICIAL">
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <input type="number" class="form-control" name="" value="" placeholder="PRECIO VENTA FINAL">
-                  </div>
-                </div>
-              </div>
-              <div class="row" style="margin-top: 30px">
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>TIPO</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>CATEGORÍA</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>ZONA</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </div>
-                </div>
-              </div>
-              <div class="button-search-wrapper">
-                <button type="" class="btn-primary">BUSCAR</button>
-              </div>
-            </div>
-            <div id="div-renta-locales" class="venta-wrapper">
-              <div class="row">
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>MUNICIPIO</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                     <input type="number" class="form-control" name="" value="" placeholder="PRECIO RENTA INICIAL">
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <input type="number" class="form-control" name="" value="" placeholder="PRECIO RENTA FINAL">
-                  </div>
-                </div>
-              </div>
-              <div class="row" style="margin-top: 30px">
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>TIPO</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>CATEGORÍA</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="form-group">
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>ZONA</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </div>
-                </div>
-              </div>
-              <div class="button-search-wrapper">
-                <button type="" class="btn-primary">BUSCAR</button>
-              </div>
-            </div>
-          </div>
-          <!--AQUI TERMINA LA PESTAÑA DE COMERCIOS O LOCALES-->
         </div>
       </div>
     </div>
   </section>
-  <div class="information">
-    <div class="container">
-      <div class="result-wrapper">
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-12">
-            <img src="assets/images/house.jpg" width="" height="" class="d-inline-block align-top" alt="">
-            <div class="price-wrapper">
-              <h4>$1,000,000</h4>
-            </div>
-          </div>
-          <div class="col-lg-8 col-md-8 col-12 right-side">
-            <h3 class="separator">Casa Caracol</h3>
-            <h4 class="separator">Casa en forma de caracol en Colima</h4>
-            <div class="row separator">
-              <div class="col-lg-4 col-md-4 col-6">
-                <div class="row icons-wrapper">
-                  <div class="col-lg-6 col-md-6 col-12">
-                    <i class="fas fa-toilet"></i>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-12">
-                    <p>4 Baños</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-6">
-                <div class="row icons-wrapper">
-                  <div class="col-lg-6 col-md-6 col-12">
-                    <i class="fas fa-tools"></i>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-12">
-                    <p>183m</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-6">
-                <div class="row icons-wrapper">
-                  <div class="col-lg-6 col-md-6 col-12">
-                    <i class="fas fa-tools"></i>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-12">
-                    <p>8x16</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-6">
-                <div class="row icons-wrapper">
-                  <div class="col-lg-6 col-md-6 col-12">
-                    <i class="fas fa-bed"></i>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-12">
-                    <p>8 cuartos</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <button class="btn btn-primary separator" type="">Detalles -></button>
-          </div>
-        </div>
-      </div>
-      <div class="result-wrapper">
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-12">
-            <img src="assets/images/house.jpg" width="" height="" class="d-inline-block align-top" alt="">
-            <div class="price-wrapper">
-              <h4>$1,000,000</h4>
-            </div>
-          </div>
-          <div class="col-lg-8 col-md-8 col-12 right-side">
-            <h3 class="separator">Casa Caracol</h3>
-            <h4 class="separator">Casa en forma de caracol en Colima</h4>
-            <div class="row separator">
-              <div class="col-lg-4 col-md-4 col-6">
-                <div class="row icons-wrapper">
-                  <div class="col-lg-6 col-md-6 col-12">
-                    <i class="fas fa-toilet"></i>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-12">
-                    <p>4 Baños</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-6">
-                <div class="row icons-wrapper">
-                  <div class="col-lg-6 col-md-6 col-12">
-                    <i class="fas fa-tools"></i>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-12">
-                    <p>183m</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-6">
-                <div class="row icons-wrapper">
-                  <div class="col-lg-6 col-md-6 col-12">
-                    <i class="fas fa-tools"></i>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-12">
-                    <p>8x16</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-6">
-                <div class="row icons-wrapper">
-                  <div class="col-lg-6 col-md-6 col-12">
-                    <i class="fas fa-bed"></i>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-12">
-                    <p>8 cuartos</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <button class="btn btn-primary separator" type="">Detalles -></button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
   <script type="text/javascript" src="assets/javascript/particles.js">
   </script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

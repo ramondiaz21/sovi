@@ -1,5 +1,10 @@
 .buscador {
+  .rowHero {
+    height: 100%;
+  }
+
   .hero {
+    padding: 15px;
     background-image: url("../../images/login.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -28,17 +33,17 @@
     }
 
     .buscador-wrapper {
-      left: 15%;
+      //left: 15%;
       background-color: white;
       border-radius: 10px;
-      padding: 35px;
-      position: absolute;
-      margin: auto;
-      width: 70%;
-      top: 5%;
-      height: 90%;
+      padding: 20px;
+      //position: absolute;
+      //margin: auto;
+      width: 100%;
+      //top: 5%;
+      //height: 90%;
 
-      @media only screen and (max-width: $large) and (min-width: $smallAlt) {
+      /*@media only screen and (max-width: $large) and (min-width: $smallAlt) {
         width: 80%;
         left: 10%;
       }
@@ -46,7 +51,7 @@
       @media screen and (max-width: $small) {
         width: 90%;
         left: 5%;
-      }
+      }*/
     }
 
     /*.nav-item {
@@ -56,7 +61,7 @@
     }*/
 
     .nav-tabs {
-      margin-bottom: 50px;
+      margin-bottom: 10px;
 
       .active {
         color: white !important;
@@ -89,11 +94,11 @@
       text-align: center;
       width: 60%;
 
-      @media only screen and (min-width: $mediumAlt ) and (max-width: $large) {
+      @media only screen and (min-width: $mediumAlt) and (max-width: $large) {
         width: 60%;
       }
 
-      @media only screen and (min-width: $smallAlt ) and (max-width: $medium) {
+      @media only screen and (min-width: $smallAlt) and (max-width: $medium) {
         width: 100%;
       }
 
@@ -111,8 +116,8 @@
       display: inline-block;
       //transition: .6s all ease;
 
-      @media only screen and (min-width: $smallAlt ) and (max-width: $medium) {
-       width: 80%;
+      @media only screen and (min-width: $smallAlt) and (max-width: $medium) {
+        width: 80%;
         margin: 5px 0;
       }
 
@@ -145,12 +150,13 @@
     .venta-wrapper,
     .renta-wrapper,
     .comercial-wrapper {
-      margin: 50px 0;
+      margin: 10px 0;
       display: none;
 
       .form-control {
         //width: 80%;
         //margin: auto;
+        font-size: 13px;
         border: none !important;
         -webkit-box-shadow: 0px 0px 12px 0px rgba(51, 102, 153, 1);
         -moz-box-shadow: 0px 0px 12px 0px rgba(51, 102, 153, 1);
@@ -164,7 +170,7 @@
       }
 
       .button-search-wrapper {
-        margin-top: 30px;
+        margin-top: 10px;
         width: 100%;
 
         .btn-primary {
@@ -173,11 +179,11 @@
           border: none !important;
           margin: auto;
           width: 20%;
-          padding: 15px;
+          padding: 7px;
 
-          @media only screen and (min-width: $smallAlt ) and (max-width: $medium) {
-       width: 80%;
-      }
+          @media only screen and (min-width: $smallAlt) and (max-width: $medium) {
+            width: 80%;
+          }
 
           @media screen and (max-width: $small) {
             width: 80%;
@@ -207,98 +213,20 @@
     }
 
 
-  }
-
-  //Aqui termina hero
-
-
-  .information {
-    background-color: #eceef2;
-    position: relative;
-    padding: 50px 0;
-
-
-    .result-wrapper {
+    .table-wrapper {
+      margin-top: 20px;
       background-color: white;
-      margin-bottom: 50px;
-      box-shadow: 0 0 5px rgba(0, 0, 0, .05);
+      border-radius: 10px;
+      padding: 20px;
+      width: 100%;
 
-      img {
-        width: 100%;
-        position: relative;
-        height: 100%;
-      }
-
-      .price-wrapper {
-        position: absolute;
-        right: 15px;
-        bottom: 0;
-        background-color: #336699e6;
-        color: white;
-        padding: 8px;
-      }
-
-      .right-side {
-        padding: 20px 30px;
-
-        .separator {
-          margin: 10px 0;
-        }
-
-        h3 {
-          color: #2F4858;
-        }
-
-        h4 {
-          color: #9ee493d6;
-        }
-      }
-
-      .icons-wrapper {
-        background-color: #336699;
-        color: white;
-        text-align: center;
-        margin-top: 10px;
-
-        p {
-          font-size: 12px;
-          font-weight: 100;
-        }
-
-        p,
-        i {
-          margin: 10px 0 !important;
-        }
+      .table-responsive {
+        max-height: 220px;
+        overflow-y: scroll;
       }
     }
 
-    .btn-primary {
-      background-color: #2F4858 !important;
-      color: white;
-      border: none !important;
-
-      &:focus {
-        outline: none !important;
-        outline-width: 0 !important;
-        box-shadow: none;
-        -moz-box-shadow: none;
-        -webkit-box-shadow: none;
-      }
-
-      @media screen and (max-width: $small) {
-        width: 100%;
-      }
-    }
-
-    .btn-primary {
-      &:hover {
-        background-color: #336699 !important;
-      }
-    }
   }
-
-  //aqui termina la seccion de resultado de busqueda
-
 }
 
 //Aqui termina .buscador
